@@ -2,13 +2,13 @@
 // requiring friends file
 var friends = require('../data/friends.js');
 // app can be use in difirent files bcs the  module.exports
-module.exports = function(app) {
+module.exports = function (app) {
   // get evarything
-  app.get('/api/friends', function(req, res) {
+  app.get('/api/friends', function (req, res) {
     res.json(friends);
   });
   // post to friends file
-  app.post('/api/friends', function(req, res) {
+  app.post('/api/friends', function (req, res) {
     var totalDifference = 0;
     // creating varibails
     var bestMatch = {
@@ -19,7 +19,7 @@ module.exports = function(app) {
     var userDate = req.body;
     var userName = userDate.name;
     var userScores = userDate.scores;
-    var b = userScores.map(function(item) {
+    var b = userScores.map(function (item) {
       return parseInt(item, 10);
     });
     userDate = {
@@ -35,7 +35,7 @@ module.exports = function(app) {
     console.log(
       '+++++++++++++================================================'
     );
-    for (var i = 0; i < friends.langth; i++) {
+    for (var i = 0; i < friends.length; i++) {
       totalDifference = 0;
       console.log('total Diff' + totalDifference);
       console.log('Best match friend' + bestMatch.friendDifference);
@@ -53,7 +53,7 @@ module.exports = function(app) {
       }
       console.log(totalDifference + 'total difference');
     }
-    console.log(bestMatch);
+    console.log("best match: ", bestMatch);
     console.log(userDate);
     console.log('New user added');
     console.log(userDate);
