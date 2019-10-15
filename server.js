@@ -1,8 +1,10 @@
+// starting here with require
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 
 var app = express();
+// server call
 var port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
