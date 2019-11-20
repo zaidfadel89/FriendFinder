@@ -3,7 +3,7 @@ Friend Finder
 Creating a dating app using Node and Express Servers. This full-stack website will take in results from users input. The app will then display the name and picture of the user with the best overall match.
 ## Friend Finder is deployed to Heroku
   
-  [heroku](https://blooming-sands-90027.herokuapp.com/)
+  [heroku](https://friendfindersapps.herokuapp.com/)
 ## NPM Packages
   * npm install express: (https://www.npmjs.com/package/express)
   * npm install body-parser: (https://www.npmjs.com/package/body-parser)
