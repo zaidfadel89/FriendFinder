@@ -4,8 +4,8 @@
   "description": "Creating a dating app using Node and Express Servers. This full-stack website will take in results from users input. The app will then display the name and picture of the user with the best overall match. ## Friend Finder is deployed to Heroku",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
   },
   "devDependencies": {},
   "scripts": {
