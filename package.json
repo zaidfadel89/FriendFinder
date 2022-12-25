@@ -1,7 +1,7 @@
 {
-  "name": "friendsFinder",
+  "name": "friendsfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a dating app using Node and Express Servers. This full-stack website will take in results from users input. The app will then display the name and picture of the user with the best overall match. ## Friend Finder is deployed to Heroku",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -14,5 +14,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidfadel89/FriendFinder_app_with_ReactJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zaidfadel89/FriendFinder_app_with_ReactJS/issues"
+  },
+  "homepage": "https://github.com/zaidfadel89/FriendFinder_app_with_ReactJS#readme"
 }
